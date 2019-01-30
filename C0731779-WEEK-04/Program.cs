@@ -19,6 +19,26 @@ namespace C0731779_WEEK_04
         public Village nextVillage;
         public String VillageName;
         public bool isAstrildeHere = false;
+        public Village previousVillage;
+    }
+    class Countryside
+    {
+        Village Maple = new Village();
+        Village Toronto = new Village();
+        Village Ajax = new Village();
+        Village First;
+        Village Last;
 
+            public void Launch()
+        {
+            Maple.VillageName = "Maple";
+            Maple.nextVillage = Toronto;
+            Maple.previousVillage = null;
+            Toronto.VillageName = "Toronto";
+            Toronto.nextVillage = Ajax;
+            Ajax.VillageName = "Ajax";
+            Ajax.nextVillage = null;
+            Ajax.nextVillage = Toronto;
+        }
     }
 }
