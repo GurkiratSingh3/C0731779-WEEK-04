@@ -10,8 +10,7 @@ namespace C0731779_WEEK_04
     {
         static void Main(string[] args)
         {
-            int[]
-
+   
         }
     }
 
