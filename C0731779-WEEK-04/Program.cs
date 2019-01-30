@@ -10,6 +10,16 @@ namespace C0731779_WEEK_04
     {
         static void Main(string[] args)
         {
+            int[]
+
         }
+    }
+
+    class Village
+    {
+        public Village nextVillage;
+        public String VillageName;
+        public bool isAstrildeHere = false;
+
     }
 }
